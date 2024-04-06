@@ -1,0 +1,35 @@
+# 项目启动端口
+server:
+  address: 9091
+  mode: debug
+
+# 数据库配置
+db:
+  type: mysql
+  host: 127.0.0.1
+  port: 3306
+  dbname: go_admin_api
+  username: root
+  password: 88888888
+  charset: utf8
+#  最大空闲数
+  maxIdle: 80
+#  最大链接数
+  maxOpen: 150
+
+# redis 配置
+redis:
+  address: 127.0.0.1:6379
+  db:
+  password:
+
+# log 日志配置
+log:
+  path: ./log
+  name: sys
+#  model.go: console
+  model: file
+
+#  文件上传 配置
+imageSettings:
+  UploadDir: ""
