@@ -25,7 +25,12 @@
       <change afterPath="$PROJECT_DIR$/../gin/pointer/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/upload.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/websocket/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniLogin/dao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniLogin/entity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login_service.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/.idea/go_blog.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_im/.idea/.gitignore" afterDir="false" />
@@ -6675,6 +6680,13 @@
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/assets/react.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/views/factory/Factory.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/views/factory/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/sys_users.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/sys_users.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -6722,13 +6734,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/yozu",
+    "last_opened_file_path": "/Users/yozu/Desktop/临时开发/goProject/go_admin/server/miniLogin",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/miniLogin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/api/captcha" />
@@ -6763,6 +6778,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

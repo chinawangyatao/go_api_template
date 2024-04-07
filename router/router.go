@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"go_admin/middleware"
 	"go_admin/server/captcha"
+	"go_admin/server/miniLogin"
 	"go_admin/server/userInfo"
 	"net/http"
 )
@@ -19,7 +20,6 @@ func InitRouter() *gin.Engine {
 
 // 路由注册
 func register(router *gin.Engine) {
-	//	todo
 	v1 := router.Group("/v1")
 	{
 		v1.GET("/api/captcha", captcha.ResCaptcha)
@@ -37,6 +37,12 @@ func register(router *gin.Engine) {
 			})
 		})
 
+	}
+	//	todo
+	//	小程序接口
+	mini := router.Group("/mini")
+	{
+		mini.POST("/api/login", miniLogin.Login)
 	}
 
 }

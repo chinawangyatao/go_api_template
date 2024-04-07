@@ -90,6 +90,20 @@
             </set>
           </value>
         </entry>
+        <entry key="WXLoginRes">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/miniLogin/entity.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WxJwtLogin">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/miniLogin/entity.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="config">
           <value>
             <set>
@@ -118,6 +132,13 @@
             </set>
           </value>
         </entry>
+        <entry key="loginData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/miniLogin/mini_login.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="redis">
           <value>
             <set>
@@ -135,7 +156,9 @@
         <entry key="userInfo">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/middleware/jwt.go" />
               <option value="file://$PROJECT_DIR$/pkg/jwt/jwt.go" />
+              <option value="file://$PROJECT_DIR$/server/miniLogin/mini_login.go" />
             </set>
           </value>
         </entry>
@@ -185,6 +208,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/common/common.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712458964507" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/common/config/config.go">
           <value>
             <ScannedPath>
@@ -231,7 +261,12 @@
         <entry key="file://$PROJECT_DIR$/middleware/jwt.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712390350154" />
+              <option name="lastModified" value="1712453396879" />
+              <option name="schema">
+                <list>
+                  <option value="userInfo" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -266,7 +301,7 @@
         <entry key="file://$PROJECT_DIR$/pkg/db/db.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712402737710" />
+              <option name="lastModified" value="1712470519507" />
             </ScannedPath>
           </value>
         </entry>
@@ -292,7 +327,7 @@
         <entry key="file://$PROJECT_DIR$/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712409399860" />
+              <option name="lastModified" value="1712457215503" />
             </ScannedPath>
           </value>
         </entry>
@@ -306,7 +341,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/sys_users.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712407695206" />
+              <option name="lastModified" value="1712461238555" />
               <option name="schema">
                 <list>
                   <option value="SysUsers" />
@@ -316,6 +351,54 @@
                   <option value="VerifyRegisterDto" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniLogin/dao.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712469105500" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniLogin/entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712466613289" />
+              <option name="schema">
+                <list>
+                  <option value="WXLoginRes" />
+                  <option value="WxJwtLogin" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712469660499" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login_controller.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712454076777" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712462502152" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/mini_login/mini_login.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712453929556" />
             </ScannedPath>
           </value>
         </entry>
@@ -401,6 +484,7 @@
         <entry key="image_settings" value="imageSettings" />
         <entry key="jwt_user" value="JwtUser" />
         <entry key="log" value="log" />
+        <entry key="login_data" value="loginData" />
         <entry key="login_dto" value="LoginDto" />
         <entry key="redis" value="redis" />
         <entry key="redis_store" value="RedisStore" />
@@ -413,6 +497,8 @@
         <entry key="time_util" value="TimeUtil" />
         <entry key="user_info" value="userInfo" />
         <entry key="verify_register_dto" value="VerifyRegisterDto" />
+        <entry key="wx_jwt_login" value="WxJwtLogin" />
+        <entry key="wx_login_res" value="WXLoginRes" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1712379236644" />
