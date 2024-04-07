@@ -11,6 +11,13 @@
             </set>
           </value>
         </entry>
+        <entry key="FileInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/miniUpload/upload.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="GModel">
           <value>
             <set>
@@ -211,7 +218,7 @@
         <entry key="file://$PROJECT_DIR$/common/common.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712458964507" />
+              <option name="lastModified" value="1712471154593" />
             </ScannedPath>
           </value>
         </entry>
@@ -327,14 +334,14 @@
         <entry key="file://$PROJECT_DIR$/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712457215503" />
+              <option name="lastModified" value="1712481497340" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/captcha/captcha_controller.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712394860118" />
+              <option name="lastModified" value="1712479992633" />
             </ScannedPath>
           </value>
         </entry>
@@ -357,7 +364,7 @@
         <entry key="file://$PROJECT_DIR$/server/miniLogin/dao.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712469105500" />
+              <option name="lastModified" value="1712472043285" />
             </ScannedPath>
           </value>
         </entry>
@@ -377,7 +384,7 @@
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712469660499" />
+              <option name="lastModified" value="1712471318345" />
             </ScannedPath>
           </value>
         </entry>
@@ -395,10 +402,71 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUpload/dao.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472977364" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUpload/entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472977363" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUpload/upload.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712483424852" />
+              <option name="schema">
+                <list>
+                  <option value="FileInfo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUpload/upload_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472977362" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/server/mini_login/mini_login.go">
           <value>
             <ScannedPath>
               <option name="lastModified" value="1712453929556" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/upload/dao.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472688268" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/upload/entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472795281" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/upload/upload.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472795258" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/upload/upload_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712472731610" />
             </ScannedPath>
           </value>
         </entry>
@@ -480,6 +548,7 @@
         <entry key="codes" value="Codes" />
         <entry key="config" value="config" />
         <entry key="db" value="db" />
+        <entry key="file_info" value="FileInfo" />
         <entry key="g_model" value="GModel" />
         <entry key="image_settings" value="imageSettings" />
         <entry key="jwt_user" value="JwtUser" />

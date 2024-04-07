@@ -11,6 +11,6 @@ var (
 var (
 	WeichatURL = "https://api.weixin.qq.com/sns/jscode2session"
 	Appid      = "wxe9e884e243401dfb"
-	VxSecret   = ""
+	VxSecret   = "3277a4dd79059fa33e33e36a106ee49b"
 	GrantType  = "authorization_code"
 )

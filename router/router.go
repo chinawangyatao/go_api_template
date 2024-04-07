@@ -5,6 +5,7 @@ import (
 	"go_admin/middleware"
 	"go_admin/server/captcha"
 	"go_admin/server/miniLogin"
+	"go_admin/server/miniUpload"
 	"go_admin/server/userInfo"
 	"net/http"
 )
@@ -13,7 +14,7 @@ func InitRouter() *gin.Engine {
 	router := gin.Default()
 	//router.Use(gin.Recovery())
 	router.Use(middleware.Cors())
-	//router.StaticFS(config.Config.ImageSettings.UploadDir, http.Dir(config.Config.ImageSettings.UploadDir))
+	router.Static("/static", "./static")
 	register(router)
 	return router
 }
@@ -42,7 +43,8 @@ func register(router *gin.Engine) {
 	//	小程序接口
 	mini := router.Group("/mini")
 	{
-		mini.POST("/api/login", miniLogin.Login)
+		mini.POST("/api/login", miniLogin.Login)         // 登录
+		mini.POST("/api/miniUpload", miniUpload.Uploads) // 文件上传
 	}
 
 }

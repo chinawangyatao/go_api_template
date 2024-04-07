@@ -37,7 +37,7 @@ func Login(c *gin.Context) {
 	}
 	//获取 openid 如果需要就存下
 	wxRes := WXLoginRes{}
-	if err := json.NewDecoder(response.Body).Decode(&wxRes); err == nil {
+	if err := json.NewDecoder(response.Body).Decode(&wxRes); err != nil {
 		utils.L.Error("json wxRes err:", err)
 		utils.Failed(c, 500, wxRes.Errmsg)
 		return

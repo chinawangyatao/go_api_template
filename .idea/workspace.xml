@@ -25,12 +25,14 @@
       <change afterPath="$PROJECT_DIR$/../gin/pointer/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/upload.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/websocket/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniLogin/dao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniLogin/entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniLogin/mini_login_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniUpload/dao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniUpload/entity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniUpload/upload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/miniUpload/upload_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/冯红 MR CD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/王成奎 MR CD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/videos/15.路由初步定义.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/.idea/go_blog.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_im/.idea/.gitignore" afterDir="false" />
@@ -6682,11 +6684,12 @@
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/views/factory/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/entity/sys_users.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/sys_users.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/captcha/captcha_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/captcha/captcha_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/miniLogin/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniLogin/dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/miniLogin/mini_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniLogin/mini_login.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -6725,7 +6728,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultApiTemplateProperty": "Api Template",
     "DefaultGoTemplateProperty": "Go File",
-    "Go 构建.go build go_admin.executor": "Run",
+    "Go 构建.go build go_admin.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -6734,7 +6737,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/yozu/Desktop/临时开发/goProject/go_admin/server/miniLogin",
+    "last_opened_file_path": "/Users/yozu/Desktop/临时开发/goProject/go_admin/server/upload",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -6742,6 +6745,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/upload" />
       <recent name="$PROJECT_DIR$/server/miniLogin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

@@ -8,5 +8,5 @@ import (
 func ResCaptcha(c *gin.Context) {
 	utils.L.Info(c)
 	id, base64Image := MakeCaptcha()
-	utils.Success(c, map[string]interface{}{"imageCode": id, "image": base64Image})
+	utils.Success(c, map[string]interface{}{"imageCode": id, "images": base64Image})
 }
