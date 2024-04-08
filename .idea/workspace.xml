@@ -25,14 +25,6 @@
       <change afterPath="$PROJECT_DIR$/../gin/pointer/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/upload.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gin/websocket/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniUpload/dao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniUpload/entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniUpload/upload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/miniUpload/upload_service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/冯红 MR CD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/王成奎 MR CD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/videos/15.路由初步定义.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/.idea/go_blog.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_blog/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../go_im/.idea/.gitignore" afterDir="false" />
@@ -6682,14 +6674,7 @@
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/assets/react.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/views/factory/Factory.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../zl-bigscreen-web_react/src/views/factory/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/captcha/captcha_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/captcha/captcha_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/miniLogin/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniLogin/dao.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/miniLogin/mini_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniLogin/mini_login.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -6707,6 +6692,7 @@
   <component name="GOROOT" url="file:///usr/local/Cellar/go/1.19.13/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -6728,7 +6714,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultApiTemplateProperty": "Api Template",
     "DefaultGoTemplateProperty": "Go File",
-    "Go 构建.go build go_admin.executor": "Debug",
+    "Go 构建.go build go_admin.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
