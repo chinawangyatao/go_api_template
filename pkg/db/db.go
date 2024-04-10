@@ -35,6 +35,13 @@ func GormInit() {
 	//// 迁移数据
 	err = db.AutoMigrate(
 		entity.SysUsers{},
+		entity.UserCard{},
+		entity.UserBanner{},
+		entity.UserIntroduce{},
+		entity.UserCase{},
+		entity.UserNews{},
+		entity.UserPhotoAlbum{},
+		entity.UserTechnology{},
 	)
 
 }
