@@ -37,7 +37,6 @@ func GormInit() {
 		entity.SysUsers{},
 		entity.UserCard{},
 		entity.UserBanner{},
-		entity.UserIntroduce{},
 		entity.UserCase{},
 		entity.UserNews{},
 		entity.UserPhotoAlbum{},
