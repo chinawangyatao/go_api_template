@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2af15bd1-9a56-4e49-8093-a5d2da48fe51" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/server/entity/user_banner.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_card.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_case.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_introduce.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_news.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_photo_album.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_technology.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/userBanners/userBanners.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/userBanners/userBanners_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2af15bd1-9a56-4e49-8093-a5d2da48fe51" name="更改" comment="feat 初步建表完成！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_banner.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_banner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_card.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_card.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_case.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_case.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_introduce.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_news.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_news.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_photo_album.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_photo_album.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_technology.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_technology.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chinawangyatao"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chinawangyatao/go_api_template.git",
+    "accountId": "5dd1e675-cec5-4cb0-b760-3ce36520a519"
+  }
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -140,6 +149,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="feat 初步建表完成！" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat 初步建表完成！" />
   </component>
   <component name="VgoProject">
     <environment>
