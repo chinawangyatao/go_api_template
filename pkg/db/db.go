@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"go_admin/common/config"
 	"go_admin/server/entity"
+	"go_admin/utils"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
@@ -41,6 +42,13 @@ func GormInit() {
 		entity.UserNews{},
 		entity.UserPhotoAlbum{},
 		entity.UserTechnology{},
+		entity.UserCardLocation{},
+		entity.UserBannerList{},
+		entity.UserPhotoAlbumList{},
 	)
+	if err != nil {
+		fmt.Printf("auto migrate err:%v", err)
+		utils.L.Error("auto migrate err:", err)
+	}
 
 }
