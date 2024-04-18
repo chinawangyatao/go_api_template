@@ -6,7 +6,6 @@
         <entry key="Codes">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/middleware/result.go" />
               <option value="file://$PROJECT_DIR$/utils/result.go" />
             </set>
           </value>
@@ -32,10 +31,24 @@
             </set>
           </value>
         </entry>
+        <entry key="Location">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_card.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="LoginDto">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/server/entity/sys_users.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PhotoAlbum">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_photo_album.go" />
             </set>
           </value>
         </entry>
@@ -56,7 +69,6 @@
         <entry key="Response">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/middleware/result.go" />
               <option value="file://$PROJECT_DIR$/utils/result.go" />
             </set>
           </value>
@@ -64,7 +76,6 @@
         <entry key="Result">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/middleware/result.go" />
               <option value="file://$PROJECT_DIR$/utils/result.go" />
             </set>
           </value>
@@ -87,6 +98,83 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/utils/time.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_card.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserBanner">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_banner.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserBannerList">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_banner_list.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserCard">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_card.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserCardLocation">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_card_location.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserCase">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_case.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_card.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserNews">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_news.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserPhotoAlbum">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_photo_album.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserPhotoAlbumList">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_photo_album_list.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserTechnology">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/entity/user_technology.go" />
             </set>
           </value>
         </entry>
@@ -139,13 +227,6 @@
             </set>
           </value>
         </entry>
-        <entry key="loginData">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/server/miniLogin/mini_login.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="redis">
           <value>
             <set>
@@ -165,7 +246,6 @@
             <set>
               <option value="file://$PROJECT_DIR$/middleware/jwt.go" />
               <option value="file://$PROJECT_DIR$/pkg/jwt/jwt.go" />
-              <option value="file://$PROJECT_DIR$/server/miniLogin/mini_login.go" />
             </set>
           </value>
         </entry>
@@ -173,59 +253,17 @@
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/api/captcha/captcha_controller.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712390430682" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/api/captcha/captcha_service.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712390411847" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/api/captcha/controller.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712390014345" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/api/captcha/dao.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712390038089" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/api/captcha/entity.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712390031563" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/api/service/captcha.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712389639066" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/common/common.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712471154593" />
+              <option name="lastModified" value="1712552728377" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/common/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712386088665" />
+              <option name="lastModified" value="1712552728378" />
               <option name="schema">
                 <list>
                   <option value="config" />
@@ -242,7 +280,7 @@
         <entry key="file://$PROJECT_DIR$/global/model.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712126929700" />
+              <option name="lastModified" value="1712552728378" />
               <option name="schema">
                 <list>
                   <option value="GModel" />
@@ -254,21 +292,21 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712399034643" />
+              <option name="lastModified" value="1712552728379" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/middleware/cors.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712130581951" />
+              <option name="lastModified" value="1712552728379" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/middleware/jwt.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712453396879" />
+              <option name="lastModified" value="1712552728379" />
               <option name="schema">
                 <list>
                   <option value="userInfo" />
@@ -277,45 +315,17 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/middleware/log.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712392106526" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/middleware/result.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712380172345" />
-              <option name="schema">
-                <list>
-                  <option value="Codes" />
-                  <option value="Result" />
-                  <option value="Response" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/model/a_tables.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712127525416" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/pkg/db/db.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712470519507" />
+              <option name="lastModified" value="1713442127638" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/pkg/jwt/jwt.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712401555500" />
+              <option name="lastModified" value="1712552728380" />
               <option name="schema">
                 <list>
                   <option value="userInfo" />
@@ -327,28 +337,49 @@
         <entry key="file://$PROJECT_DIR$/pkg/redis/redis.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712386112201" />
+              <option name="lastModified" value="1712552728380" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712481497340" />
+              <option name="lastModified" value="1712552728380" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/captcha/captcha_controller.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712479992633" />
+              <option name="lastModified" value="1712552728381" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/captcha/captcha_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712552728381" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/captcha/dao.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712552728381" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/captcha/entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712552728381" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/entity/sys_users.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712461238555" />
+              <option name="lastModified" value="1713442078013" />
               <option name="schema">
                 <list>
                   <option value="SysUsers" />
@@ -361,17 +392,125 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_banner.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713439931220" />
+              <option name="schema">
+                <list>
+                  <option value="UserBanner" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_banner_list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713442609470" />
+              <option name="schema">
+                <list>
+                  <option value="UserBannerList" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_card.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713440768520" />
+              <option name="schema">
+                <list>
+                  <option value="UserCard" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_card_location.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713441306445" />
+              <option name="schema">
+                <list>
+                  <option value="UserCardLocation" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_case.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712884913057" />
+              <option name="schema">
+                <list>
+                  <option value="UserCase" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_news.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712884913058" />
+              <option name="schema">
+                <list>
+                  <option value="UserNews" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_photo_album.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713441781171" />
+              <option name="schema">
+                <list>
+                  <option value="UserPhotoAlbum" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_photo_album_list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713442609498" />
+              <option name="schema">
+                <list>
+                  <option value="UserPhotoAlbumList" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/entity/user_technology.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712884913058" />
+              <option name="schema">
+                <list>
+                  <option value="UserTechnology" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/server/miniLogin/dao.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712472043285" />
+              <option name="lastModified" value="1712552728381" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniLogin/entity.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712466613289" />
+              <option name="lastModified" value="1712552728382" />
               <option name="schema">
                 <list>
                   <option value="WXLoginRes" />
@@ -384,42 +523,42 @@
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712471318345" />
+              <option name="lastModified" value="1712552728382" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login_controller.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712454076777" />
+              <option name="lastModified" value="1712552728382" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login_service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712462502152" />
+              <option name="lastModified" value="1712552728382" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniUpload/dao.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712472977364" />
+              <option name="lastModified" value="1712552728382" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniUpload/entity.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712472977363" />
+              <option name="lastModified" value="1712552728382" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/miniUpload/upload.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712483424852" />
+              <option name="lastModified" value="1712552728382" />
               <option name="schema">
                 <list>
                   <option value="FileInfo" />
@@ -431,63 +570,42 @@
         <entry key="file://$PROJECT_DIR$/server/miniUpload/upload_service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712472977362" />
+              <option name="lastModified" value="1712552728383" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/server/mini_login/mini_login.go">
+        <entry key="file://$PROJECT_DIR$/server/userBanners/userBanners.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712453929556" />
+              <option name="lastModified" value="1712797395668" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/server/upload/dao.go">
+        <entry key="file://$PROJECT_DIR$/server/userBanners/userBanners_service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712472688268" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/server/upload/entity.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712472795281" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/server/upload/upload.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712472795258" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/server/upload/upload_service.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1712472731610" />
+              <option name="lastModified" value="1712797395669" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/userInfo/userInfo.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712408218746" />
+              <option name="lastModified" value="1712552728383" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/userInfo/userInfo_dao.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712408437349" />
+              <option name="lastModified" value="1712552728383" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/server/userInfo/userInfo_service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712408536453" />
+              <option name="lastModified" value="1712552728383" />
               <option name="schema">
                 <list>
                   <option value="SysUserInfo" />
@@ -499,14 +617,14 @@
         <entry key="file://$PROJECT_DIR$/utils/log.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712392669181" />
+              <option name="lastModified" value="1712552728445" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/utils/redisStore.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712400461953" />
+              <option name="lastModified" value="1712552728445" />
               <option name="schema">
                 <list>
                   <option value="RedisStore" />
@@ -518,7 +636,7 @@
         <entry key="file://$PROJECT_DIR$/utils/result.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712400630475" />
+              <option name="lastModified" value="1712552728445" />
               <option name="schema">
                 <list>
                   <option value="Codes" />
@@ -532,7 +650,7 @@
         <entry key="file://$PROJECT_DIR$/utils/time.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712392889450" />
+              <option name="lastModified" value="1712552728446" />
               <option name="schema">
                 <list>
                   <option value="TimeUtil" />
@@ -552,9 +670,10 @@
         <entry key="g_model" value="GModel" />
         <entry key="image_settings" value="imageSettings" />
         <entry key="jwt_user" value="JwtUser" />
+        <entry key="location" value="Location" />
         <entry key="log" value="log" />
-        <entry key="login_data" value="loginData" />
         <entry key="login_dto" value="LoginDto" />
+        <entry key="photo_album" value="PhotoAlbum" />
         <entry key="redis" value="redis" />
         <entry key="redis_store" value="RedisStore" />
         <entry key="register_dto" value="RegisterDto" />
@@ -564,12 +683,22 @@
         <entry key="sys_user_info" value="SysUserInfo" />
         <entry key="sys_users" value="SysUsers" />
         <entry key="time_util" value="TimeUtil" />
-        <entry key="user_info" value="userInfo" />
+        <entry key="user" value="User" />
+        <entry key="user_banner" value="UserBanner" />
+        <entry key="user_banner_list" value="UserBannerList" />
+        <entry key="user_card" value="UserCard" />
+        <entry key="user_card_location" value="UserCardLocation" />
+        <entry key="user_case" value="UserCase" />
+        <entry key="user_info" value="UserInfo" />
+        <entry key="user_news" value="UserNews" />
+        <entry key="user_photo_album" value="UserPhotoAlbum" />
+        <entry key="user_photo_album_list" value="UserPhotoAlbumList" />
+        <entry key="user_technology" value="UserTechnology" />
         <entry key="verify_register_dto" value="VerifyRegisterDto" />
         <entry key="wx_jwt_login" value="WxJwtLogin" />
         <entry key="wx_login_res" value="WXLoginRes" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1712379236644" />
+    <option name="lastTimeChecked" value="1713423752799" />
   </component>
 </project>

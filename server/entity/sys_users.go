@@ -47,7 +47,7 @@ type RegisterDto struct {
 	Password string `json:"password" validate:"required"`
 	Email    string `json:"email" validate:"required"`
 	Phone    string `json:"phone" validate:"required"`
-	Status   int    `json:"status"`
+	Status   int    `gorm:"column:status;comment:是否启用 1->启用，0->禁用" json:"status"`
 }
 
 // VerifyRegisterDto 注册校验参数

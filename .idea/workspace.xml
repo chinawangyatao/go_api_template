@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af15bd1-9a56-4e49-8093-a5d2da48fe51" name="更改" comment="feat 初步建表完成！">
+      <change afterPath="$PROJECT_DIR$/server/entity/user_banner_list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/entity/user_card_location.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/entity/user_photo_album_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/sys_users.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/sys_users.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_banner.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_banner.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_card.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_card.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/entity/user_case.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_case.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/entity/user_introduce.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/entity/user_news.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_news.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_photo_album.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_photo_album.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/entity/user_technology.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_technology.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go@1.19/1.19.13/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.19.13/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -39,18 +40,18 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SHOW_RECENT_BRANCHES" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "chinawangyatao"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chinawangyatao&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chinawangyatao/go_api_template.git",
-    "accountId": "5dd1e675-cec5-4cb0-b760-3ce36520a519"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chinawangyatao/go_api_template.git&quot;,
+    &quot;accountId&quot;: &quot;5dd1e675-cec5-4cb0-b760-3ce36520a519&quot;
   }
-}]]></component>
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -68,30 +69,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultApiTemplateProperty": "Api Template",
-    "DefaultGoTemplateProperty": "Go File",
-    "Go 构建.go build go_admin.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "pre-w",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/wangyatao",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "go.vgo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultApiTemplateProperty&quot;: &quot;Api Template&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go 构建.go build go_admin.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pre-w&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yozu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/upload" />
