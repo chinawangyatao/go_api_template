@@ -6,6 +6,8 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/golang-jwt/jwt/v4"
 	"go_admin/common"
+	"go_admin/pkg/db"
+	jwtt "go_admin/pkg/jwt"
 	"go_admin/server/entity"
 	"go_admin/utils"
 	"net/http"
@@ -23,6 +25,11 @@ func Login(c *gin.Context) {
 	err := c.BindJSON(&LoginData)
 	if err != nil {
 		utils.L.Error("bindjson loginData err:", err)
+		utils.Failed(c, 400, "login err!")
+		return
+	}
+	if LoginData.Code == "" {
+		utils.Failed(c, 400, "登录 code 为空！")
 		return
 	}
 	//请求微信 url
@@ -32,7 +39,9 @@ func Login(c *gin.Context) {
 
 	response, err := http.Get(url)
 	if err != nil {
+		fmt.Println(err)
 		utils.L.Error("Get weixin url err:", err)
+		utils.Failed(c, 400, err.Error())
 		return
 	}
 	//获取 openid 如果需要就存下
@@ -45,7 +54,7 @@ func Login(c *gin.Context) {
 	info := entity.SysUsers{
 		OpenId: wxRes.Openid,
 	}
-	miniInfo := MiniUserInfo(info) // 存下 openid
+	MiniUserInfo(info) // 存下 openid
 
 	//根据 openid 等 userInfo 生成数据
 	t, err := GenerateToken(info)
@@ -53,7 +62,7 @@ func Login(c *gin.Context) {
 		utils.L.Error("GenerateToken err:", err)
 		return
 	}
-	utils.Success(c, map[string]interface{}{"userinfo": miniInfo, "token": t})
+	utils.Success(c, map[string]interface{}{"token": t})
 
 }
 
@@ -74,4 +83,24 @@ func GenerateToken(jwtInfo entity.SysUsers) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, c)
 	signed, err := token.SignedString(common.Secret)
 	return signed, err
+}
+
+// GetMiniUserInfo 查询用户信息
+func GetMiniUserInfo(c *gin.Context) {
+	authHeader := c.GetHeader("Authorization")
+	user, err := jwtt.ParseToken(authHeader)
+	if err != nil {
+		fmt.Println("jwt parse err:", err)
+		utils.Failed(c, 401, "no token")
+		return
+	}
+	openid := user.OpenId
+	var userinfo entity.SysUsers
+	if err = db.DB.Where("openid=?", openid).First(&userinfo).Error; err != nil {
+		fmt.Println("GetMiniUserInfo err:", err)
+		utils.L.Error("GetMiniUserInfo err:", err)
+		utils.Success(c, map[string]interface{}{"userinfo": nil})
+		return
+	}
+	utils.Success(c, map[string]interface{}{"userinfo": userinfo})
 }
