@@ -6,8 +6,8 @@ import "go_admin/global"
 type UserBanner struct {
 	global.GModel
 	Images string   `gorm:"column:images;comment:banner列表" json:"images"`
-	UserID uint     `gorm:"column:user_id;comment:用户ID" json:"user_id"`
-	User   SysUsers `gorm:"foreignKey:UserID" json:"user"`
+	OpenID uint     `gorm:"column:open_ID;comment:用户ID" json:"openId"`
+	User   SysUsers `gorm:"foreignKey:OpenID" json:"user"`
 }
 
 func (u UserBanner) TableName() string {

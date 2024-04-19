@@ -3,6 +3,13 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="Banner">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/miniUserBanner/userBanners.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Codes">
           <value>
             <set>
@@ -344,7 +351,7 @@
         <entry key="file://$PROJECT_DIR$/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712552728380" />
+              <option name="lastModified" value="1713507866134" />
             </ScannedPath>
           </value>
         </entry>
@@ -379,7 +386,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/sys_users.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713442078013" />
+              <option name="lastModified" value="1713497980596" />
               <option name="schema">
                 <list>
                   <option value="SysUsers" />
@@ -395,7 +402,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_banner.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713439931220" />
+              <option name="lastModified" value="1713497281673" />
               <option name="schema">
                 <list>
                   <option value="UserBanner" />
@@ -407,7 +414,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_banner_list.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713442609470" />
+              <option name="lastModified" value="1713493644379" />
               <option name="schema">
                 <list>
                   <option value="UserBannerList" />
@@ -419,7 +426,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_card.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713440768520" />
+              <option name="lastModified" value="1713497281699" />
               <option name="schema">
                 <list>
                   <option value="UserCard" />
@@ -431,7 +438,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_card_location.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713441306445" />
+              <option name="lastModified" value="1713492458781" />
               <option name="schema">
                 <list>
                   <option value="UserCardLocation" />
@@ -443,7 +450,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_case.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712884913057" />
+              <option name="lastModified" value="1713497281790" />
               <option name="schema">
                 <list>
                   <option value="UserCase" />
@@ -455,7 +462,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_news.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712884913058" />
+              <option name="lastModified" value="1713497373100" />
               <option name="schema">
                 <list>
                   <option value="UserNews" />
@@ -467,7 +474,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_photo_album.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713441781171" />
+              <option name="lastModified" value="1713497373136" />
               <option name="schema">
                 <list>
                   <option value="UserPhotoAlbum" />
@@ -479,7 +486,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_photo_album_list.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1713442609498" />
+              <option name="lastModified" value="1713497373066" />
               <option name="schema">
                 <list>
                   <option value="UserPhotoAlbumList" />
@@ -491,7 +498,7 @@
         <entry key="file://$PROJECT_DIR$/server/entity/user_technology.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712884913058" />
+              <option name="lastModified" value="1713497373169" />
               <option name="schema">
                 <list>
                   <option value="UserTechnology" />
@@ -523,7 +530,7 @@
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712552728382" />
+              <option name="lastModified" value="1713499008328" />
             </ScannedPath>
           </value>
         </entry>
@@ -537,7 +544,7 @@
         <entry key="file://$PROJECT_DIR$/server/miniLogin/mini_login_service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712552728382" />
+              <option name="lastModified" value="1713494740584" />
             </ScannedPath>
           </value>
         </entry>
@@ -574,10 +581,38 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUserBanner/userBanners.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713511418652" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/miniUserBanner/userBanners_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713498396132" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/parseJwt/parse_jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713509315371" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/parse_jwt/parse_jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713509111145" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/server/userBanners/userBanners.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1712797395668" />
+              <option name="lastModified" value="1713498300140" />
             </ScannedPath>
           </value>
         </entry>
@@ -663,6 +698,7 @@
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="banner" value="Banner" />
         <entry key="codes" value="Codes" />
         <entry key="config" value="config" />
         <entry key="db" value="db" />

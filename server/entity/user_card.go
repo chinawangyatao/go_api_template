@@ -4,8 +4,8 @@ import "go_admin/global"
 
 type UserCard struct {
 	global.GModel
-	UserID   uint     `gorm:"column:user_id;comment:用户ID" json:"user_id"`
-	User     SysUsers `gorm:"foreignKey:UserID" json:"user"`
+	OpenID   uint     `gorm:"column:open_ID;comment:用户ID" json:"openId"`
+	User     SysUsers `gorm:"foreignKey:OpenID" json:"user"`
 	Title    string   `gorm:"column:title;comment:标题" json:"title"`
 	Subtitle string   `gorm:"column:subtitle;comment:副标题" json:"subtitle"`
 	Avatar   string   `gorm:"column:avatar;varchar(500);comment:头像" json:"avatar"`

@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2af15bd1-9a56-4e49-8093-a5d2da48fe51" name="更改" comment="feat 初步建表完成！">
-      <change afterPath="$PROJECT_DIR$/server/entity/user_banner_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_card_location.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/entity/user_photo_album_list.go" afterDir="false" />
+    <list default="true" id="2af15bd1-9a56-4e49-8093-a5d2da48fe51" name="更改" comment="feat 修改表结构与关联关系">
+      <change afterPath="$PROJECT_DIR$/server/miniUserBanner/userBanners.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/parseJwt/parse_jwt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/sys_users.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/sys_users.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_banner.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_banner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_banner_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_banner_list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_card.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_card.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_card_location.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_card_location.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_case.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_case.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_news.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_news.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/entity/user_photo_album.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_photo_album.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_photo_album_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_photo_album_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/entity/user_technology.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/entity/user_technology.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/miniLogin/mini_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniLogin/mini_login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/miniLogin/mini_login_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/miniLogin/mini_login_service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/userBanners/userBanners.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/userBanners/userBanners_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/miniUserBanner/userBanners_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/chinawangyatao/go_api_template.git&quot;,
-    &quot;accountId&quot;: &quot;5dd1e675-cec5-4cb0-b760-3ce36520a519&quot;
+    &quot;accountId&quot;: &quot;01934c58-41ff-4c9e-9673-7a8a90b38285&quot;
   }
 }</component>
   <component name="GoLibraries">
@@ -152,7 +163,8 @@
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
     <MESSAGE value="feat 初步建表完成！" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat 初步建表完成！" />
+    <MESSAGE value="feat 修改表结构与关联关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat 修改表结构与关联关系" />
   </component>
   <component name="VgoProject">
     <environment>

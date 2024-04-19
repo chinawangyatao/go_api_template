@@ -6,6 +6,7 @@ import (
 	"go_admin/server/captcha"
 	"go_admin/server/miniLogin"
 	"go_admin/server/miniUpload"
+	"go_admin/server/miniUserBanner"
 	"go_admin/server/userInfo"
 	"net/http"
 )
@@ -43,8 +44,13 @@ func register(router *gin.Engine) {
 	//	小程序接口
 	mini := router.Group("/mini")
 	{
-		mini.POST("/api/login", miniLogin.Login)         // 登录
-		mini.POST("/api/miniUpload", miniUpload.Uploads) // 文件上传
+		mini.POST("/api/login", miniLogin.Login)                 // 登录
+		mini.POST("/api/miniUpload", miniUpload.Uploads)         // 文件上传
+		mini.POST("/api/getUserInfo", miniLogin.GetMiniUserInfo) // 获取用户信息
+
+		mini.GET("/api/getUserBanner", miniUserBanner.GetBanner)          // curd banner
+		mini.POST("/api/setUpDateBanner", miniUserBanner.SetUpDateBanner) // curd banner
+		mini.DELETE("/api/deleteBanner", miniUserBanner.DeleteBanner)     // curd banner
 	}
 
 }

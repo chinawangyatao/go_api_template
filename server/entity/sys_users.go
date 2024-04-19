@@ -15,7 +15,7 @@ type SysUsers struct {
 	Email    string `gorm:"column:email;varchar(64);comment:邮箱" json:"email"`
 	Phone    string `gorm:"column:phone;varchar(64);comment:手机" json:"phone"`
 	Note     string `gorm:"column:note;varchar(500);comment:备注" json:"note"`
-	OpenId   string `gorm:"column:openid;varchar(200);comment:微信小程序 openid" json:"openid"`
+	OpenId   string `gorm:"column:openid;varchar(200);comment:微信小程序;" json:"openid"`
 }
 
 func (u SysUsers) TableName() string {
@@ -31,6 +31,7 @@ type JwtUser struct {
 	Email    string `json:"email"`
 	Phone    string `json:"phone"`
 	Note     string `json:"note"`
+	OpenId   string `json:"openid"`
 }
 
 // LoginDto 登录参数

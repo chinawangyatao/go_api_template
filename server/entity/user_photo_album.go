@@ -5,8 +5,8 @@ import "go_admin/global"
 // UserPhotoAlbum 用户相册
 type UserPhotoAlbum struct {
 	global.GModel
-	UserID uint     `gorm:"column:user_id;comment:用户ID" json:"user_id"`
-	User   SysUsers `gorm:"foreignKey:UserID" json:"user"`
+	OpenID uint     `gorm:"column:open_ID;comment:用户ID" json:"openId"`
+	User   SysUsers `gorm:"foreignKey:OpenID" json:"user"`
 }
 
 func (UserPhotoAlbum) TableName() string { return "user_photo_album" }
